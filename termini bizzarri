@@ -1,0 +1,13 @@
+termini_bizzarri = {
+    "cringe":"qualcosa di strano o imbarazzante",
+    "lol": "termine usato quando avviene qualcosa di molto divertente", 
+    "ghostare": "verbo che indica quando non si risponde ad un messaggio anche se visualizzato",
+    "lootare": "verbo utilizzato nei videogiochi per saccheggiare un posto e prendere i suoi tesori",
+    "push": "azione di attaccare il nemico"
+}
+while True:
+    query = input("che termine vuoi sapere?")
+    if query in termini_bizzarri:
+        print(termini_bizzarri[query])
+    else:
+        print("non è nel dizionario")
